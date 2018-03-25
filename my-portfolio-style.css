@@ -1,0 +1,125 @@
+body {
+  font-family: "Comic Sans MS";
+  background-color: #424242;
+
+}
+.intro-section {
+  background-color: #424242;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cover-photo {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  position:relative;
+}
+.profile-pic {
+  border: 4px solid black;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+
+}
+.intro-text {
+  text-align: center;
+
+  color: white;
+  font-size: 22px;
+}
+.contact-about-section {
+
+  position: relative;
+  height: 600px;
+  top: -200px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-text-pic{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  position:relative;
+  top:-250px;
+}
+
+.about {
+  width: 45%;
+
+  /*border:2px solid white;*/
+  margin-right: 10px;
+}
+.contact {
+  width: 45%;
+}
+
+.contact-form {
+  /*border:1px solid black;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+legend {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+.contact-about-fieldset{
+  height: 150px;
+  color: white;
+  text-align: justify;
+  padding: 25px 20px;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  height: 35px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  width: 100%;
+}
+.btn-facebook {
+  background-color: #3b5998;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.btn-gmail {
+  background-color: #b71c1c;
+}
+.project-section{
+  display:flex;
+
+  justify-content:center;
+  position:relative;
+  top:-200px;
+  margin-bottom:50px;
+
+}
+.project-fieldset{
+  width:90%;
+
+}
+.project-img{
+  border:1px solid black;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+.project-items{
+
+  padding:10px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
